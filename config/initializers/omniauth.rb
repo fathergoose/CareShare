@@ -1,5 +1,5 @@
 OmniAuth.config.logger = Rails.logger
 
 Rails.application.config.middleware.use OmniAuth::Builder do
-    provider :facebook, 'MYAPPID', 'MYSECRET'
+    provider :facebook, ENV['FB_ID'], ENV['FB_SECRET']
 end
