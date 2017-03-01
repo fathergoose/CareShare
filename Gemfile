@@ -48,4 +48,4 @@ end
 ## Added after `rails new`
 gem 'omniauth'
 gem 'omniauth-facebook', '1.4.0'
-
+gem 'unirest'
